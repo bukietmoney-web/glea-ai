@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: linear-gradient(135deg, #ffb6e6, #b8e7ff, #d8c2ff);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #ffb6e6, #b8e7ff, #d8c2ff);
+  min-height: 100vh;
+  color: #222;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px 18px;
+}
+
+.logo {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: #7b2cff;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.upload {
+  display: block;
+  border: 3px dashed #9b6cff;
+  padding: 35px 15px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.upload:hover {
+  background: #f7f1ff;
+}
+
+.upload input[type="file"] {
+  display: none;
+}
+
+#preview {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 15px;
+  display: block;
+}
+
+.field-label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #444;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px solid #ddd;
+  font-size: 16px;
+  font-family: inherit;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.dialogue-input {
+  height: 90px;
+}
+
+select {
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px solid #ddd;
+  font-size: 16px;
+  font-family: inherit;
+  background: white;
+  color: #222;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+button.generate {
+  width: 100%;
+  margin-top: 24px;
+  padding: 16px;
+  border: 0;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #ff4da6, #7b2cff, #00bfff);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.generate:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.message {
+  text-align: center;
+  margin-top: 15px;
+  color: #666;
+  min-height: 20px;
+}
+
+.result-video {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 15px;
+}
